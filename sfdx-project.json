@@ -3,6 +3,10 @@
     {
       "path": "force-app",
       "default": true
+    },
+    {
+      "path": "streaming-monitor/src",
+      "default": false
     }
   ],
   "namespace": "",

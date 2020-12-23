@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quiddity__c</fullName>
+    <description>n scholastic philosophy, &quot;quiddity&quot; (/ˈkwɪdɪti/; Latin: quidditas)[1] was another term for the essence of an object, literally its &quot;whatness&quot; or &quot;what it is&quot;.</description>
+    <externalId>false</externalId>
+    <isFilteringDisabled>false</isFilteringDisabled>
+    <isNameField>false</isNameField>
+    <isSortingDisabled>false</isSortingDisabled>
+    <label>Quiddity</label>
+    <length>32</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
