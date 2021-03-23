@@ -1,0 +1,6 @@
+.localdevserver
+.sfdx
+.vscode
+**/jsconfig.json
+**/staticresources
+coverage

@@ -1,15 +1,15 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    },
-    {
-      "path": "streaming-monitor/src",
-      "default": false
-    }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "49.0"
+    "packageDirectories": [
+        {
+            "path": "logging-app",
+            "default": true
+        },
+        {
+            "path": "force-app",
+            "default": false
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "50.0"
 }
