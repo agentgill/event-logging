@@ -58,6 +58,26 @@ public inherited sharing class Log {
     }
 
     /**
+     * @description Overirde messageToLog to include source
+     * @author agentgill | 03-23-2021
+     * @param messageToLog
+     * @param severity
+     * @param source
+     **/
+    public void add(String messageToLog, LogSeverity severity, String source) {
+        LogMessage msg = new LogMessage(messageToLog);
+        if (severity != null) {
+            msg.severity = severity;
+        }
+
+        if (source != null) {
+            msg.source = source;
+        }
+
+        buffer.add(msg);
+    }
+
+    /**
      * @description Add an formated exception message to the buffer without
      * publishing it. Assumes a null Severity
      * @param exceptionToLog Exception to format and log

@@ -13,3 +13,19 @@ package.xml
 
 **profile**
 AppSwitcher
+
+
+# Ignore Streaming monitor
+events**
+streaming**
+actions**
+eventTime**
+sidebar**
+subscriptions**
+AppBrand
+d3
+Streaming**
+modal**
+notice**
+eventFilters**
+GenericEventPostMock

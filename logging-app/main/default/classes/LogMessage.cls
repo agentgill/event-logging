@@ -37,6 +37,11 @@ public inherited sharing class LogMessage {
     public String message { get; set; }
 
     /**
+     * @description Public source property.
+     */
+    public String source { get; set; }
+
+    /**
      * @description Public severity property.
      */
     public LogSeverity severity { get; set; }
@@ -50,7 +55,8 @@ public inherited sharing class LogMessage {
             Log_Message__c = this.message,
             Request_Id__c = this.requestId,
             Quiddity__c = this.quiddity?.name(),
-            Severity__c = this.severity?.name()
+            Severity__c = this.severity?.name(),
+            Source__c = this.source
         );
     }
 

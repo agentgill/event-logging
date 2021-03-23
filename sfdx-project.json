@@ -2,11 +2,11 @@
     "packageDirectories": [
         {
             "path": "logging-app",
-            "default": true
+            "default": false
         },
         {
             "path": "force-app",
-            "default": false
+            "default": true
         }
     ],
     "namespace": "",
